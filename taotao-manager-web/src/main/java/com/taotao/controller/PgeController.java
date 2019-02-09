@@ -18,6 +18,7 @@ public class PgeController {
 	public String showIndex(){
 		return "index";
 	}
+	
 	//显示商品的查询的页面
 	//  url:/item-list
 	@RequestMapping("/{page}")
